@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nature Beauty Around the World</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf7ea;
+}
+
+/* Navbar */
+nav {
+    background: #14532d;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #a7f3d0;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+/* Sections */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #166534;
+}
+
+/* Image Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background: #14532d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#mountains">Mountains</a>
+    <a href="#forests">Forests</a>
+    <a href="#rivers">Rivers</a>
+    <a href="#ocean">Oceans</a>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Explore Nature Beauty Around the World</h1>
+</div>
+
+<!-- Mountains -->
+<div id="mountains" class="section">
+    <h2>Majestic Mountains</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+            <h3>Snowy Peaks</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1464822759844-d150baec0134">
+            <h3>Sunrise Mountains</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+            <h3>Rocky Mountains</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Forests -->
+<div id="forests" class="section">
+    <h2>Green Forests</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e">
+            <h3>Dense Forest</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1">
+            <h3>Misty Woods</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+            <h3>Wild Nature</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Rivers -->
+<div id="rivers" class="section">
+    <h2>Flowing Rivers</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad">
+            <h3>Calm River</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb">
+            <h3>Mountain River</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+            <h3>Water Flow</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Oceans -->
+<div id="ocean" class="section">
+    <h2>Beautiful Oceans</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+            <h3>Blue Ocean</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98">
+            <h3>Sunset Beach</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21">
+            <h3>Waves</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Nature World | Save Nature 🌿</p>
+</footer>
+
+</body>
+</html>
